@@ -7,7 +7,7 @@ local base = io.read('n')
 io.write('\nEnter the integer to stop at: ')
 local intStop = io.read('n')
 
-for i=0, 150 do
+for i=0, intStop do
     io.write("\n7 times ", i, "= ")
     io.write(i * base)
     if (i * base) > intStop then
