@@ -1,5 +1,7 @@
 # smallProjects
-just a bunch of small, quick things built
+just a bunch of small algorithms to sharpen quick programming skills. 
+ex:
+  a recursive summation 
 
 
 # Lua contents: 
