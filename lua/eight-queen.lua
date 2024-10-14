@@ -25,9 +25,6 @@ N = 8 -- board size
  end
 
 
- 
-    
-
  -- add to board 'a' all queens from 'n' to 'N'
  function addqueen (a, n)
         if n > N then -- all queens have been placed?
