@@ -7,3 +7,12 @@ ex:
 # Lua contents: 
 ## luaCongruence.lua
 a lua program that takes a modulus, multiplier, increment, and seed value to find the linear congruency of *n* values.
+
+## eight-queen.lua
+prints out every instance of an `n` x `n` board with `n` queens on it where no queen can steal another
+
+## iteration.lua
+prints the sum of `n` times every natural number, and stops at a specific integer. created during a discrete mathematics course to help with problem solving
+
+## recursion.lua
+determines how many binary numbers there are with length `n` that have at least a pair of consecutive zeros
