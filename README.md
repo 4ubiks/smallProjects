@@ -14,5 +14,13 @@ prints out every instance of an `n` x `n` board with `n` queens on it where no q
 ## iteration.lua
 prints the sum of `n` times every natural number, and stops at a specific integer. created during a discrete mathematics course to help with problem solving
 
-## recursion.lua
+## binaries.lua
 determines how many binary numbers there are with length `n` that have at least a pair of consecutive zeros
+
+<br>
+<br>
+<br>
+
+# Python:
+## recursion.py
+just a demo of recursion to explain it to someone like they're five
