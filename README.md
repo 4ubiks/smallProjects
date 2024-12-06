@@ -6,7 +6,6 @@ ex:
 <br>
 
 # Lua contents:
-<br>
 ### luaCongruence.lua
 a lua program that takes a modulus, multiplier, increment, and seed value to find the linear congruency of *n* values.
 
@@ -23,7 +22,6 @@ determines how many binary numbers there are with length `n` that have at least 
 <br>
 
 # C:
-<br>
 ### decToHex.c
 the main file for a decimal to hexadecimal conversion calculator. this project is really an introduction to hash-maps in C, though. 
 
@@ -47,7 +45,6 @@ Not that it would ever happen, but whenever `kv.s` gets a segmentation fault, I 
 <br>
 
 # Python:
-<br>
 ### recursion.py
 just a demo of recursion to explain it to someone like they're five
 <br>
