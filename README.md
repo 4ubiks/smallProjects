@@ -53,4 +53,4 @@ just a demo of recursion to explain it to someone like they're five
 
 # Brain F*ck:
 ### hello.bf
-don't judge me, please. i saw a youtube video and I was just curious
+don't judge me. i came across a youtube video and i was curious. we've all been there.
