@@ -4,8 +4,8 @@ ex:
   a recursive summation 
 
 
-# Lua contents: 
-## luaCongruence.lua
+# <u>Lua contents:</u>
+### luaCongruence.lua
 a lua program that takes a modulus, multiplier, increment, and seed value to find the linear congruency of *n* values.
 
 ## eight-queen.lua
