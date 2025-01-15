@@ -30,7 +30,7 @@ found:
     xor edx, edx
 
 convert:
-    ;div bl             ; Divide AL by 10, quotient in AL, remainder in DL
+    div bl             ; Divide AL by 10, quotient in AL, remainder in DL
     add dl, '1'        ; Convert to ASCII by adding '0' to the remainder
     mov [msg], dl      
 

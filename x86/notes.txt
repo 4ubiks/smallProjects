@@ -1,0 +1,7 @@
+RUNNING IN GDB:
+	gdb ./reverse
+	break _start
+	run
+
+	layout asm
+	stepi
