@@ -1,5 +1,5 @@
 section .data
-	output db 10, "reversal works correctly", 10, 0
+	output db 10, "reward issac deliver nametag stressed", 10, 0
 
 section .text
 	global _start
