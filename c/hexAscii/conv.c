@@ -17,10 +17,11 @@ int main(){
 	int length = strlen(str);
 	int j = 0;
 	for (int i=0; i < length; i++){ 						// gets rid of spaces in hex
-		if (str[i] != ' '){
+		char a = str[i];
+		if (str[i] != ' '&& (a=='a'||a=='b'||a=='c'||a=='d'||a=='e'||a=='f')){
 			str[j] = str[i];
 			j++;
-		}
+		} else{printf("unknown character (%c", a); printf("), exiting\n"); return 0;}
 	}
 	str[j] = '\0';
 	
