@@ -1,5 +1,5 @@
 section .data
-	output db "reverse this", 10, 0
+	output db 10, "reversal works correctly", 10, 0
 
 section .text
 	global _start
@@ -11,7 +11,7 @@ _start:
 print:
 	mov al, [rcx]
 	test al, al
-	jz exit
+	jz set
 	mov rax, 4 				; number for a sys_write
 	mov rbx, 1 				; stdout
 	mov rdx, 1 				; write 1 byte
@@ -20,8 +20,20 @@ print:
 	inc rcx
 	jmp print
 
+set:
+	dec rcx
+
 reverse:
-	
+	mov al, [rcx]
+	test al, al
+	jz exit
+	mov rax, 4
+	mov rbx, 1
+	mov rdx, 1
+	int 0x80
+
+	dec rcx
+	jmp reverse
 	
 exit:
 	mov rax, 1
