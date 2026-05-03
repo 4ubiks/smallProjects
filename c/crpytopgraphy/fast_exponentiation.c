@@ -7,7 +7,7 @@
 Write your code in this editor and press "Run" button to compile and execute it. 
 
 /author: Jack Harris /date: 21 April 2026 /course: CSCN463-001 
-
+compilation method: `gcc -o fast fast_exponentiation.c`
 *******************************************************************************/ 
 
 #include <stdio.h> 
